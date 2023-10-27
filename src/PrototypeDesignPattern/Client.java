@@ -1,4 +1,4 @@
-package prototypeDesignPattern;
+package PrototypeDesignPattern;
 
 public class Client {
     private static void fillRegistry(Registry registry){

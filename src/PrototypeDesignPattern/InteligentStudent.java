@@ -1,4 +1,4 @@
-package prototypeDesignPattern;
+package PrototypeDesignPattern;
 
 public class InteligentStudent extends Student {
     int IQ;

@@ -1,4 +1,4 @@
-package prodBuilderPattern;
+package ProdBuilderPattern;
 
 public class Client {
     public static void main(String[] args){

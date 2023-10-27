@@ -1,4 +1,4 @@
-package prodBuilderPattern;
+package ProdBuilderPattern;
 
 public class Student {
     String name;

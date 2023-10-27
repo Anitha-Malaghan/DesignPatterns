@@ -1,4 +1,4 @@
-package prototypeDesignPattern;
+package PrototypeDesignPattern;
 
 public class Student implements Prototype<Student> {
     private String name;
