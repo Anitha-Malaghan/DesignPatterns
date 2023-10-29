@@ -8,7 +8,7 @@ public class PhonePe {
     }
     double doSomething() throws InterruptedException{
         double currentBalance = bankAPI.getBalance("accountNumber");
-        Thread.sleep(25*24*60*60*1000);
+        //Thread.sleep(25*24*60*60*1000);
         return currentBalance*2;
     }
 }

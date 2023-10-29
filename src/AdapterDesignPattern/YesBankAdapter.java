@@ -7,7 +7,7 @@ public class YesBankAdapter implements BankApiAdapter{
 
     @Override
     public double getBalance(String accNumber){
-        return 0;
+        return 1000;
     }
     @Override
     public boolean sendMoney(String from, String to, int amt){
