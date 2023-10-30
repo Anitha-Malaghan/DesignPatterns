@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909f2a14-cd03-4de9-876b-c6b192e84cc2" name="Changes" comment="Adapter Design Pattern Added">
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/ChocoChips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/ChocolateCone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/IceCreamConeConstituents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/OrangeCone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/StrawberryScoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/VanillaScoop.java" afterDir="false" />
+    <list default="true" id="909f2a14-cd03-4de9-876b-c6b192e84cc2" name="Changes" comment="Strategy Design Pattern Added">
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Flipkart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/OrderPlacedSubscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/PhonePe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/PhonePe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/YesBankAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/YesBankAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <recent name="C:\Users\prave\IdeaProjects\designpatterns\src\prodBuilderPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorDesignPattern.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="AdapterDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterDesignPattern.Client" />
       <module name="designpatterns" />
@@ -91,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BuilderDesignPattern.builderpattern.prodBuilderPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverDesignPattern.Client" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObserverDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrototypeDesignPattern.Client" />
-      <module name="designpatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrototypeDesignPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.DecoratorDesignPattern.Client" />
         <item itemvalue="Application.AdapterDesignPattern.Client" />
         <item itemvalue="Application.FactoryDesignPattern.Client" />
         <item itemvalue="Application.BuilderDesignPattern.builderpattern.prodBuilderPattern.Client" />
-        <item itemvalue="Application.PrototypeDesignPattern.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +160,9 @@
       <workItem from="1698368674525" duration="12686000" />
       <workItem from="1698451920427" duration="1896000" />
       <workItem from="1698539244854" duration="4614000" />
-      <workItem from="1698568519569" duration="1746000" />
+      <workItem from="1698568519569" duration="4952000" />
+      <workItem from="1698647943765" duration="288000" />
+      <workItem from="1698648287005" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Design Pattern Added">
       <option name="closed" value="true" />
@@ -183,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698429231726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Decorator Design Pattern Added">
+      <option name="closed" value="true" />
+      <created>1698577257720</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698577257720</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Strategy Design Pattern Added">
+      <option name="closed" value="true" />
+      <created>1698632042703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698632042703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +205,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Design Pattern Added" />
     <MESSAGE value="Adapter Design Pattern Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter Design Pattern Added" />
+    <MESSAGE value="Decorator Design Pattern Added" />
+    <MESSAGE value="Strategy Design Pattern Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy Design Pattern Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
