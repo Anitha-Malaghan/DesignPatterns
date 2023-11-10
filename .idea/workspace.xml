@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909f2a14-cd03-4de9-876b-c6b192e84cc2" name="Changes" comment="Strategy Design Pattern Added">
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Flipkart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/InvoiceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/OrderPlacedSubscriber.java" afterDir="false" />
+    <list default="true" id="909f2a14-cd03-4de9-876b-c6b192e84cc2" name="Changes" comment="Observer Design Pattern Added">
+      <change afterPath="$PROJECT_DIR$/src/SingletonDesignPattern/Eager/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonDesignPattern/Lazy/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonDesignPattern/Lazy/ParameterizedDBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonDesignPattern/Lazy/ParameterizedDBConnectionWithLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonDesignPattern/SingleThreaded/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,10 @@
       <recent name="C:\Users\prave\IdeaProjects\designpatterns\src\BuilderDesignPattern\ProdBuilderPattern" />
       <recent name="C:\Users\prave\IdeaProjects\designpatterns\src\BuilderDesignPattern" />
       <recent name="C:\Users\prave\IdeaProjects\designpatterns\src\prodBuilderPattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SingletonDesignPattern.Lazy" />
+      <recent name="SingletonDesignPattern.Eager" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
@@ -162,7 +166,9 @@
       <workItem from="1698539244854" duration="4614000" />
       <workItem from="1698568519569" duration="4952000" />
       <workItem from="1698647943765" duration="288000" />
-      <workItem from="1698648287005" duration="2364000" />
+      <workItem from="1698648287005" duration="3075000" />
+      <workItem from="1698712651931" duration="3754000" />
+      <workItem from="1699605723999" duration="5525000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Design Pattern Added">
       <option name="closed" value="true" />
@@ -196,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698632042703</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Observer Design Pattern Added">
+      <option name="closed" value="true" />
+      <created>1698650721039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698650721039</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +221,8 @@
     <MESSAGE value="Adapter Design Pattern Added" />
     <MESSAGE value="Decorator Design Pattern Added" />
     <MESSAGE value="Strategy Design Pattern Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy Design Pattern Added" />
+    <MESSAGE value="Observer Design Pattern Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer Design Pattern Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
